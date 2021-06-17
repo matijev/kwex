@@ -1,6 +1,6 @@
 $CurrentDir = $(get-location).Path;
 echo $CurrentDir
 cd ce-pipeline-lambda-function/src/
-dotnet tool install --global Amazon.Lambda.Tools --version 3.1.1
-dotnet tool update -g Amazon.Lambda.Tools
+#dotnet tool install --global Amazon.Lambda.Tools --version 3.1.1
+#dotnet tool update -g Amazon.Lambda.Tools
 dotnet lambda package -c Release -o ../../publish/ce_pipeline_lambda.zip
