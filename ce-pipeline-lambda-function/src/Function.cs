@@ -42,7 +42,6 @@ namespace ce_pipeline_lambda_function
 
         private static async Task<CEPipelineInput> ProcessStep(string stepName, CEPipelineInput input)
         {
-            blah bl;'krjg'
             Console.WriteLine($"************************ Running Task => {stepName} *****************************");
 
 
