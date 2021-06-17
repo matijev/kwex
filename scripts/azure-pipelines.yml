@@ -33,4 +33,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
  
-- powershell: .\ziplambda.ps1
+- powershell: .\scripts\ziplambda.ps1
